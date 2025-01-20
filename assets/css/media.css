@@ -1,0 +1,41 @@
+@media screen and (max-width:430px) {
+    header nav{
+        padding: 12px 16px;
+        border-bottom: 1px solid var(--orange);
+    }
+    .navbar_brand{
+        justify-content: space-between;
+    }
+    .navbar_brand img{
+        width: 46px;
+    }
+    .hamburger_icon{
+        display: inherit;
+    }
+    .navbar_brand h2{
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+
+    .hero_section {
+        padding: 0 16px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .hero_section img {
+        width: 336px;
+    }
+    .hero_section h2 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+    .hero_section p {
+        font-size: 14px;
+    }
+}

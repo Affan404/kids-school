@@ -17,11 +17,16 @@ main p{
     font-family: "Raleway", serif;
 }
 /* shared style */
-
+button{
+    cursor: pointer;
+}
 /* shared style */
-/* header section starts */
+/*==== header section starts ====*/
+header{
+    background: #F7F7F7;
+}
 header nav{
-    margin: 20px 136px;
+    padding: 20px 136px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,9 +35,15 @@ header nav{
     display: flex;
     align-items: center;
     gap: 13px;
+    cursor: pointer;
+}
+.hamburger_icon{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 .navbar_brand img{
-    width: 56px;
+    width: 58px;
 }
 .navbar_brand h2{
     font-size: 28px;
@@ -41,8 +52,6 @@ nav ul{
     display: flex;
     align-items: center;
     gap: 28px;
-}
-nav li{
     list-style: none;
 }
 nav li a{
@@ -59,4 +68,34 @@ nav button{
     font-weight: 600;
     font-size: 19px;
 }
-/* header section ends */
+/* hero section starts */
+.hero_section{
+    padding: 0 136px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_section img{
+    width: 450px;
+}
+.hero_section h2{
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 61px;
+    color: #111111;
+}
+.hero_section p{
+    font-size: 18px;
+    margin: 22px 0;
+}
+.hero_section button{
+    padding: 9px 45px;
+    border: none;
+    background: #111111;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px;
+}
+/* hero section ends */
+/*==== header section ends ====*/

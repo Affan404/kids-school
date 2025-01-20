@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --ashh:#808080;
+    --orange:#FEA301;
+    --sky-blue:#01ACFD;
+}
+body{
+    font-family: "Quicksand", serif;
+}
+main p{
+    font-family: "Raleway", serif;
+}
+/* shared style */
+
+/* shared style */
+/* header section starts */
+header nav{
+    margin: 20px 136px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_brand{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.navbar_brand img{
+    width: 56px;
+}
+.navbar_brand h2{
+    font-size: 28px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav button{
+    padding: 9px 57px;
+    border: none;
+    background: var(--orange);
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 19px;
+}
+/* header section ends */

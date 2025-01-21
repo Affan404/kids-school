@@ -96,4 +96,27 @@
     .stories_section button {
         margin-top: 20px;
     }
+    /* footer section */
+    footer {
+        padding: 65px 20px 60px 20px;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .footer_logo h2 {
+        font-size: 35px;
+    }
+    .footer_logo img {
+        width: 69px;
+    }
+    .footer_column1 p {
+        font-size: 16px;
+        margin-top: 22px;
+    }
+    footer h4 {
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+    .footer_column2 ul {
+        gap: 16px;
+    }
 }

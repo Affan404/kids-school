@@ -38,4 +38,62 @@
     .hero_section p {
         font-size: 14px;
     }
+    .hero_section button {
+        margin-bottom: 20px;
+    }
+    /* curriculum section */
+    section{
+        padding: 40px 16px;
+    }
+    .section_title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .curriculum_container {
+        flex-direction: column;
+    }
+    .curriculum_item {
+        padding: 36px 80px;
+    }
+    .curriculum_item img {
+        width: 92px;
+    }
+    .curriculum_item h3 {
+        margin: 22px 0;
+        font-size: 16px;
+    }
+    .curriculum_item p {
+        font-size: 10px;
+        margin-bottom: 22px;
+    }
+    .curriculum_item a {
+        font-size: 11px;
+    }
+    .curricilum_navigation {
+        display: none;
+    }
+
+    /* stories section */
+    .stories_item1{
+        display: none;
+    }
+    .stories_child_container {
+        gap: 11px;
+        margin-top: 20px;
+    }
+    .stories_item img {
+        width: 100%;
+    }
+    .stories_item span {
+        padding: 5px 11px;
+        font-size: 9px;
+    }
+    .stories_item h5 {
+        margin: 0 0 17px 0;
+        font-size: 9px;
+        line-height: 17px;
+    }
+    .stories_section button {
+        margin-top: 20px;
+    }
 }
